@@ -1,0 +1,8 @@
+version: "3"
+services:
+  selenium-side-runner:
+    build:
+      ./selenium-side-runner
+    container_name: selenium-side.runner
+    image:
+      selenium:centos7

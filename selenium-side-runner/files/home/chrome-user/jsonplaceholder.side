@@ -1,0 +1,21 @@
+{
+  "id": "dbbe1a96-5720-4790-ac66-1500155bdd59",
+  "version": "2.0",
+  "name": "jsonplaceholder",
+  "url": "https://jsonplaceholder.typicode.com/",
+  "tests": [{
+    "id": "38ddb2fb-64cd-460d-a38f-6969bde38741",
+    "name": "test1",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "cea1ebc8-b7d8-4dc4-8d4c-b98ca05fed39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["38ddb2fb-64cd-460d-a38f-6969bde38741"]
+  }],
+  "urls": ["https://jsonplaceholder.typicode.com/"],
+  "plugins": []
+}
